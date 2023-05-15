@@ -86,7 +86,7 @@ public:
     // default constructor
     Example()
     {
-        cout << "This is a default constructor called." << endl;
+        cout << "This is a default constructor called omshivasai." << endl;
     }
 
     //  arrow (->) operator when accessing the private_data member variable in the constructor of the Example class.
@@ -131,6 +131,9 @@ int main()
     Example obj;
 
     obj.set_private_data();
+
+    cout << " size of object" << sizeof(obj) << endl;
+
     // can access private data member through public setter method
     cout << "The value of private_data is: " << obj.get_private_data() << endl; // can access private data member through public getter method
 
