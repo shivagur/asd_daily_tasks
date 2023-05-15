@@ -1,6 +1,6 @@
 
 
-// first oops program
+// first oops program ////////////////////////////////////////////////////////////////
 /*#include <iostream>
 using namespace std;
 
@@ -20,8 +20,8 @@ int main()
     return 0;
 }
 */
-
-// second one program
+// #####################################################################################################################
+//  second one program
 
 /*#include <iostream>
 using namespace std;
@@ -67,7 +67,7 @@ int main()
 }
 
 */
-
+// ############################################################################################################################
 #include <iostream>
 using namespace std;
 
@@ -98,14 +98,14 @@ public:
         cout << "//  arrow (->) operator when accessing the private_data member variable in the constructor of the Example class" << endl;
     }
 
-    // will now try to access the public data member variable in the constructor of the Example class
+    /*// will now try to access the public data member variable in the constructor of the Example class
     Example(int public_data)
     {
 
         this->public_data = public_data;
 
         cout << "    // will now try to access the public data member variable in the constructor of the Example class " << endl;
-    }
+    }*/
     void public_function()
     {
         cout << "This is a public function." << endl;
